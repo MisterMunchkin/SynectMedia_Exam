@@ -30,11 +30,20 @@ namespace CodingAssignment.Services
         {
             var dataFileModel = JsonConvert.DeserializeObject<DataFileModel>(File.ReadAllText("./AppData/DataFile.json"));
 
-            dataFileModel.Data.Add(model);
+            var jsonDataModel = dataFileModel.Data.Find(d => d.Id == model.Id);
 
-            Save(dataFileModel);
+            if (jsonDataModel == null)
+            {
+                dataFileModel.Data.Add(model);
 
-            return dataFileModel;
+                Save(dataFileModel);
+
+                return dataFileModel;
+            }
+            else
+            {
+                return null;
+            }
         }
 
 
