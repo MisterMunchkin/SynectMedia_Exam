@@ -48,6 +48,7 @@ namespace CodingAssignment.Services
 
 
         //Changed the return because the return in FileController for Post is DataFileModel. where would I get the data if I return bool here
+        //Update should return null if id was not found
         public DataFileModel Update(DataModel model, int id)
         {
             var dataFileModel = JsonConvert.DeserializeObject<DataFileModel>(File.ReadAllText("./AppData/DataFile.json"));
@@ -72,6 +73,7 @@ namespace CodingAssignment.Services
 
 
         //Changed the return because the return in FileController for Post is DataFileModel. where would I get the data if I return bool here
+        //Delete should return null if id was not found
         public DataFileModel Delete(int id)
         {
             var dataFileModel = JsonConvert.DeserializeObject<DataFileModel>(File.ReadAllText("./AppData/DataFile.json"));
