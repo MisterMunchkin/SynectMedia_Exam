@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omri.r.SYNECTMEDIA\\source\\repos\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj": {}
+    "D:\\Development\\CodevTest\\csharpcodingassignment\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omri.r.SYNECTMEDIA\\source\\repos\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj": {
+    "D:\\Development\\CodevTest\\csharpcodingassignment\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omri.r.SYNECTMEDIA\\source\\repos\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj",
+        "projectUniqueName": "D:\\Development\\CodevTest\\csharpcodingassignment\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj",
         "projectName": "CodingAssignment",
-        "projectPath": "C:\\Users\\Omri.r.SYNECTMEDIA\\source\\repos\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj",
-        "packagesPath": "C:\\Users\\Omri.r.SYNECTMEDIA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omri.r.SYNECTMEDIA\\source\\repos\\CodingAssignment\\CodingAssignment\\obj\\",
+        "projectPath": "D:\\Development\\CodevTest\\csharpcodingassignment\\CodingAssignment\\CodingAssignment\\CodingAssignment.csproj",
+        "packagesPath": "C:\\Users\\dalmi\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\CodevTest\\csharpcodingassignment\\CodingAssignment\\CodingAssignment\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Omri.r.SYNECTMEDIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -65,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

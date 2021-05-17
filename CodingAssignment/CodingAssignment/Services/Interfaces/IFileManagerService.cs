@@ -8,6 +8,12 @@ namespace CodingAssignment.Services.Interfaces
 {
     public interface IFileManagerService
     {
+        ///<summary>
+        /// Returns the complete data model using id as a parameter
+        /// </summary>
+        /// <returns></returns>
+        DataModel GetData(int id);
+
         /// <summary>
         /// Returns the complete data model 
         /// </summary>
@@ -18,18 +24,18 @@ namespace CodingAssignment.Services.Interfaces
         /// Insert new data model 
         /// </summary>
         /// <returns></returns>
-        bool Insert(DataModel model);
+        DataFileModel Insert(DataModel model);
 
         /// <summary>
         /// Updates a specific data model using the id as the key
         /// </summary>
         /// <returns></returns>
-        bool Update(DataModel model, int id);
+        DataFileModel Update(DataModel model, int id);
 
         /// <summary>
         /// Deletes a specific data model using the id as the key
         /// </summary>
         /// <returns></returns>
-        bool Delete(int id);
+        DataFileModel Delete(int id);
     }
 }

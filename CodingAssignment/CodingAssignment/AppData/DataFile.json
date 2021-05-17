@@ -1,10 +1,36 @@
-﻿{
-  "Data":  [
+{
+  "Data": [
     {
-      "Id": 1
+      "Id": 1,
+      "Dictionary": [
+        {
+          "2": "string",
+          "3": "string",
+          "4": "string",
+          "5": "string"
+        }
+      ]
     },
     {
-      "Id": 2
+      "Id": 2,
+      "Dictionary": [
+        {
+          "2": "string",
+          "3": "string",
+          "4": "string",
+          "5": "string"
+        }
+      ]
+    },
+    {
+      "Id": 0,
+      "Dictionary": [
+        {
+          "2": "stringhere",
+          "3": "stringhere",
+          "4": "stringhere"
+        }
+      ]
     }
   ]
 }

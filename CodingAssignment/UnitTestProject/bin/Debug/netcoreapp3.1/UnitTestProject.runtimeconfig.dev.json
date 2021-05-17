@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Omri.r.SYNECTMEDIA\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Omri.r.SYNECTMEDIA\\.nuget\\packages"
+      "C:\\Users\\dalmi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dalmi\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }
