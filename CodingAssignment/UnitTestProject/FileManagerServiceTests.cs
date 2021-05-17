@@ -29,7 +29,6 @@ namespace UnitTestProject
             Assert.IsNotNull(res);
 
             Assert.IsInstanceOfType(res, typeof(DataFileModel));
-
         }
     }
 }
